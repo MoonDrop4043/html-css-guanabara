@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        table{
+            width: 700px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col"><strong>grupo</strong></th>
+                <th scope="col"><strong>Nomes</strong></th>
+                <th scope="colgroup" colspan="3"><strong>Filmes / Desenhos / Séries</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3"><strong>Mulheres</strong></th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Jango</td>
+                <td>1914</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>Blame</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Wall-E</td>
+                <td>Coraline</td>
+                <td>Rango</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3"><strong>Homens</strong></th>
+                <td>Bruno Mendonça</td>
+                <td>Invencivel</td>
+                <td>Gladiador</td>
+                <td>Toy story</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>It</td>
+                <td>Narvik</td>
+                <td>Taxi Driver</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars</td>
+                <td>The Boys</td>
+                <td>Hereditário</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

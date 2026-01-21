@@ -1,0 +1,26 @@
+body{
+    /*
+    background-color: black;
+    background-image: url(https://cdn.neowin.com/news/images/uploaded/2024/10/1729024891_ss_92c1af49499f7328113e28cb89df68f0e616f472.1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* Shorthand property order:
+
+        color > image > position > size > repeat > attachment
+        
+    */
+
+    background: black url(https://cdn.neowin.com/news/images/uploaded/2024/10/1729024891_ss_92c1af49499f7328113e28cb89df68f0e616f472.1920x1080.jpg) center center / cover no-repeat fixed;
+
+}
+main{
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}

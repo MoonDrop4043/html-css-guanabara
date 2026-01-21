@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(https://comunitaitaliana.com/wp-content/uploads/2023/06/Rio_de_janeiro_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1{
+    background: linear-gradient(to right, rgb(52, 89, 158), transparent);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+thead, tfoot{
+    background-color: rgb(45, 91, 122);
+    color: white;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(45, 91, 122);
+}
+
+td, th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 6px;
+}
+
+table{
+    background-color: rgba(0, 0, 0, 0.548);
+    border-collapse: collapse;
+    width: 750px;
+    color: white;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(47, 94, 156);
+}
+
+tbody > tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+p {
+    color: white;
+}
+div {
+    background-color: black;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
