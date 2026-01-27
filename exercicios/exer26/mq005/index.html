@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/styele.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu site</h1>
-        <menu>
-            <i id="burguer" class="material-symbols-outlined">menu</i>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickmenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="a">Opção 1</a></li>
                 <li><a href="a">Opção 2</a></li>
@@ -33,5 +34,22 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit saepe totam quasi nihil quae harum iste labore, qui reprehenderit voluptates reiciendis atque, rem animi sint cumque adipisci, eius rerum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, laborum voluptates? Quia iusto quidem quibusdam maiores dicta provident nesciunt, natus quisquam totam nostrum suscipit velit ut repellendus, nulla eius ea.</p>
         </article>
     </main>
+    <script>
+        function mudoutamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = "block"
+            } else {
+                itens.style.display = "none"
+            }
+        }
+
+        function clickmenu(){
+            if(itens.style.display == "block"){
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+        }
+    </script>
 </body>
 </html>

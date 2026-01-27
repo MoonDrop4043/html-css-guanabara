@@ -25,14 +25,20 @@ i#burguer{
     color: white;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover{
+    background-color: white;
+    color: black;
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
-    list-style: none;
+    list-style-type: none;
 }
 
 menu > ul > li > a{
@@ -42,7 +48,8 @@ menu > ul > li > a{
     background-color: rgb(95, 95, 95);
     color: white;
     text-align: center;
-    border-top: 2px solid gray;
+    border-top: 1px solid gray;
+    border-radius: 5px;
 }
 
 menu > ul > li > a:hover{
