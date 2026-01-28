@@ -24,7 +24,7 @@
                     <label for="ilogin">Login</label>
                     <i class="material-symbols-outlined">person</i>
 
-                    <input name="nome" id="ilogin" type="email" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+                    <input name="nome" id="ilogin" type="email" placeholder="seu e-mail" autocomplete="email" required maxlength="32">
 
                 </div>
                 <div class="campo">
@@ -35,9 +35,14 @@
 
                 </div>
                 <input type="submit" value="Entrar">
-                <a href="a" class="botao">Esqueci minha senha</a>
+                <a href="a" target="_blank" onclick="clicou()" class="botao">Esqueci minha senha</a>
             </form>
         </section>
     </main>
+    <script>
+        function clicou(){
+            alert('Se ferrou kkkkkkkkkkkkkkk')
+        }
+    </script>
 </body>
 </html>

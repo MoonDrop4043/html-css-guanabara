@@ -5,17 +5,3 @@
     padding: 0px;
 }
 
-header{
-    background-color: rgba(24, 110, 24, 0.521);
-}
-
-section.a1{
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    background-color: aqua;
-}
-
-img{
-    max-width: 600px;
-    display: block;
-}

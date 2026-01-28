@@ -31,12 +31,13 @@ Grandes telas: acima de 1200px
     section#Login > div#formulario{
         float: right;
         width: 70%;
+        font-size: 1.2em;
     }
 
     form > input[type=submit]{
-        display: block;
+        display: flex;
         font-size: 1em;
-        width: 40%;
+        width: 65%;
         height: 40px;
         background-color: white;
         color: black;
@@ -44,15 +45,61 @@ Grandes telas: acima de 1200px
         border-radius: 5px;
         border-color: rgb(197, 183, 54);
         cursor: pointer;
+        margin: auto;
+        margin-top: 50px;
     }
 
     form > div.campo{
         display: flex;
         height: 40px;
         padding: 5px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    section#Login > div#formulario{
+        display: block;
+        padding: 10px;
+    }
+
+    form#from{
+        display: block;
+        padding: 20px;
+        margin-top: 40px;
+        float: right;
+        width: 70%;
+    }
+
+    div.campo > label{
+        display: block;
+        font-weight: bold;
+        margin-top: 4px;
+    }
+    i.material-symbols-outlined{
+        display: none;
+    }
+
+    input#ilogin{
+        width: 270px;
+        height: 35px;
+        text-indent: 3px;
+    }
+    input#isenha{
+        width: 266px;
+        height: 35px;
+        text-indent: 3px;
+    }
+
+    a{
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        margin: 10px auto;
     }
 }
+
+/* --------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 992px){
     main{
