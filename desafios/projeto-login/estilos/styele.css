@@ -40,6 +40,7 @@ section#Login > div#img{
     background-repeat: no-repeat;
     height: 200px;
     display: block;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.308);
 }
 
 section#Login > div#formulario{

@@ -124,6 +124,7 @@ Grandes telas: acima de 1200px
         float: left;
         width: 50%;
         height: 100%;
+        box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.37);
     }
 
     section#Login>div#formulario {
@@ -145,11 +146,6 @@ Grandes telas: acima de 1200px
         justify-content: space-around;
         align-items: center;
         height: 100%;
-        /* padding: 20px;
-        margin-top: 40px; */
-        /* float: right;
-        /* width: 70%;
-    } */
     }
 
     form p {
@@ -177,6 +173,7 @@ Grandes telas: acima de 1200px
         justify-content: center;
         font-weight: bold;
         margin-top: 10px;
+        margin-right: 10px;
     }
 
     i.material-symbols-outlined {
@@ -184,14 +181,14 @@ Grandes telas: acima de 1200px
     }
 
     input#ilogin {
-        width: 270px;
-        height: 35px;
+        width: 280px;
+        height: 38px;
         text-indent: 3px;
     }
 
     input#isenha {
-        width: 266px;
-        height: 35px;
+        width: 276px;
+        height: 38px;
         text-indent: 3px;
     }
 
