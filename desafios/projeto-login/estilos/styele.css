@@ -56,31 +56,34 @@ div#formulario > p{
     font-size: 0.8em;
 }
 
-form#from{
-    display: block;
+form{
+    display: flex;
+    flex-direction: column;
     padding: 10px;
+    height: 305px;
 }
 
 div.campo > label{
     display: none;
 }
 
-form > div.campo{
-    display: flex;
-    height: 40px;
-    padding: 5px;
-    margin-bottom: 10px;
+div.campo{
+    height: 37%;
+    margin: inherit;
 }
 
 input#ilogin, input#isenha{
+    margin-top: 15px;
     border: 2px solid rgba(0, 0, 0, 0.658);
     border-radius: 5px;
     font-size: 1em;
     margin-left: 3px;
     text-indent: 4px;
+    height: 30px;
 }
 
-form > input[type=submit]{
+input[type=submit]{
+    background-color: brown;
     display: block;
     font-size: 1em;
     width: 90%;
@@ -92,9 +95,10 @@ form > input[type=submit]{
     border-radius: 5px;
     cursor: pointer;
     margin: auto;
+    margin-top: 5px;
 }
 
-form > input[type=submit]:hover{
+input[type=submit]:hover{
     background-color: rgb(197, 183, 54);
     color: white;
 }
@@ -105,5 +109,5 @@ a{
     align-items: center;
     justify-content: center;
     width: fit-content;
-    margin: 1px auto;
+    margin: 3px auto;
 }

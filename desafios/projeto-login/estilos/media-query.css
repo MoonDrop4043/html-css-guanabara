@@ -9,35 +9,35 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px){
-    main{
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
         background-image: linear-gradient(to right, black, transparent);
     }
 
-    body{
+    body {
         background: url(https://i.redd.it/29kcp54hqccf1.jpeg);
     }
 
-    section#Login{
+    section#Login {
         width: 90vw;
     }
 
-    section#Login > div#img{
+    section#Login>div#img {
         float: left;
         width: 30%;
         height: 100%;
     }
 
-    section#Login > div#formulario{
+    div#formulario {
         float: right;
-        width: 70%;
+        width: 100%;
         font-size: 1.2em;
     }
 
-    form > input[type=submit]{
+    input[type=submit] {
         display: flex;
         font-size: 1em;
-        width: 65%;
+        width: 50%;
         height: 40px;
         background-color: white;
         color: black;
@@ -46,50 +46,56 @@ Grandes telas: acima de 1200px
         border-color: rgb(197, 183, 54);
         cursor: pointer;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
-    form > div.campo{
-        display: flex;
-        height: 40px;
-        padding: 5px;
-        margin-bottom: 20px;
-    }
-
-    section#Login > div#formulario{
+    section#Login>div#formulario {
         display: block;
         padding: 10px;
     }
 
-    form#from{
-        display: block;
-        padding: 20px;
-        margin-top: 40px;
-        float: right;
-        width: 70%;
+    form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* gap: 100px; */
+        height: 100%;
     }
 
-    div.campo > label{
-        display: block;
+    div.campo>label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-weight: bold;
-        margin-top: 4px;
+        margin-top: 10px;
     }
-    i.material-symbols-outlined{
+
+    i.material-symbols-outlined {
         display: none;
     }
 
-    input#ilogin{
+    div.campo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 90px;
+        margin-left: 10px;
+        gap: 10px;
+    }
+
+    input#ilogin {
         width: 270px;
         height: 35px;
         text-indent: 3px;
     }
-    input#isenha{
+
+    input#isenha {
         width: 266px;
         height: 35px;
         text-indent: 3px;
     }
 
-    a{
+    a {
         display: flex;
         text-decoration: none;
         align-items: center;
@@ -101,35 +107,115 @@ Grandes telas: acima de 1200px
 
 /* --------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 992px){
-    main{
+@media screen and (min-width: 992px) {
+    main {
         background-image: linear-gradient(to right, black, transparent);
     }
 
-    body{
+    body {
         background: url(https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt7cf50ad6e093d4fa/65bd183462eebe040a132e1c/Backrooms_model.jpg);
     }
 
-    section#Login{
+    section#Login {
         width: 950px;
     }
 
-    section#Login > div#img{
+    section#Login>div#img {
         float: left;
         width: 50%;
         height: 100%;
     }
 
-    section#Login > div#formulario{
+    section#Login>div#formulario {
         float: right;
         width: 50%;
     }
 
-    div#formulario > h1{
+    div#formulario>h1 {
         font-size: 2em;
     }
 
-    div#formulario > p{
+    div#formulario>p {
         font-size: 1.2em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        /* padding: 20px;
+        margin-top: 40px; */
+        /* float: right;
+        /* width: 70%;
+    } */
+    }
+
+    form p {
+        padding: 10px;
+        text-align: center;
+    }  
+
+    .campo {
+        display: flex;
+        flex-direction: row;
+        width: 100%;  
+    }
+
+    div.campo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 90px;
+        margin-left: 10px;
+    }
+
+    div.campo>label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    i.material-symbols-outlined {
+        display: none;
+    }
+
+    input#ilogin {
+        width: 270px;
+        height: 35px;
+        text-indent: 3px;
+    }
+
+    input#isenha {
+        width: 266px;
+        height: 35px;
+        text-indent: 3px;
+    }
+
+   .botoes {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        width: 75%;
+        background-color: white;
+        color: black;
+        /* border: 2px solid rgb(197, 183, 54); */
+        border-radius: 5px;
+        /* border-color: rgb(197, 183, 54); */
+        cursor: pointer;
+        /* margin: auto; */
+        /* margin-top: 50px; */
+    }
+
+    a {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        margin: 10px auto;
     }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,39 +9,43 @@
     <link rel="stylesheet" href="estilos/styele.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
+
 <body>
     <main>
         <section id="Login">
             <div id="img">
                 <!-- imagem -->
             </div>
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-            </div>
 
-            <form action="login.php" method="post" autocomplete="on" id="from">
+            <form action="login.php" method="post" autocomplete="on">
+
+                <div id="formulario">
+                    <h1>Login</h1>
+                    <p>Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                </div>
+
                 <div class="campo">
                     <label for="ilogin">Login</label>
                     <i class="material-symbols-outlined">person</i>
 
-                    <input name="nome" id="ilogin" type="email" placeholder="seu e-mail" autocomplete="email" required maxlength="32">
-
+                    <input name="nome" id="ilogin" type="email" placeholder="seu e-mail" autocomplete="email" required maxlength="32"><br>
                 </div>
                 <div class="campo">
                     <label for="isenha">Senha</label>
                     <i class="material-symbols-outlined">vpn_key</i>
 
                     <input name="senha" id="isenha" type="password" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
-
                 </div>
-                <input type="submit" value="Entrar">
-                <a href="a" target="_blank" onclick="clicou()" class="botao">Esqueci minha senha</a>
+
+                <div class="botoes">
+                    <input type="submit" value="Entrar">
+                    <a href="#" onclick="clicou()" class="botao">Esqueci minha senha</a>
+                </div>
             </form>
         </section>
     </main>
     <script>
-        function clicou(){
+        function clicou() {
             alert('Se ferrou kkkkkkkkkkkkkkk')
         }
     </script>
