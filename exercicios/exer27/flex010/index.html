@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible-Box</title>
+    <!-- Por padrão = shrink: 1 e grow: 0 -->
+
+    <!-- flex-shrink: 1 / Pode encolher -->
+    <!-- flex-shrink: 0 / Não pode encolher -->
+
+    <!-- flex-grow: 0 / Não pode crescer -->
+    <!-- flex-grow: 1 / Pode crescer -->
+     
+    <style>
+        div.conteiner{
+            background-color: darkcyan;
+            padding: 5px;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.item{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        div#d1{
+            flex: 0 1 150px;
+            /* flex-grow: 0;
+            flex-shrink: 1; 
+            flex-basis: 150px; */
+        }
+        div#d2{
+            flex: 2 0 150px;
+            /* flex-grow: 2;
+            flex-shrink: 0; 
+            flex-basis: 150px; */
+        }
+        div#d3{
+            flex: 1 2 150px;
+            /* flex-grow: 1;
+            flex-shrink: 2;
+            flex-basis: 150px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="d1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi laudantium temporibus quia velit voluptas laborum incidunt dignissimos, reiciendis illum ab alias aspernatur. Possimus hic aliquid consequuntur, ex veritatis harum autem!</div>
+
+        <div class="item" id="d2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quidem, excepturi eaque, facere repellendus nisi aliquam porro quasi dolores, exercitationem ratione mollitia autem dicta blanditiis. Repellendus dolores consectetur quisquam sed!</div>
+
+        <div class="item" id="d3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum facilis explicabo maiores ad voluptatibus hic odit repellendus accusamus ea nostrum! Maiores quae molestias vitae unde earum sequi quidem fugit illo.</div>
+    </div>
+</body>
+</html>
