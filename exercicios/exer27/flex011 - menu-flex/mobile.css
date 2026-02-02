@@ -9,8 +9,11 @@ header, header > nav{
 header > h1{
     flex-basis: 50px;
     margin-bottom: 10px;
+    text-shadow: 2px 5px 10px purple;
 }
 header > nav > a{
     width: 80vw;
+    height: 4vh;
     background-color: rgb(112, 32, 112);
+    text-align: center;
 }
