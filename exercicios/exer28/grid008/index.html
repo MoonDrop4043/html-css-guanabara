@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout na prática</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        main{
+            border: 3px solid #0c90e7;
+            display: grid;
+            gap: 10px;
+        }
+        div.grid1{
+            border: 2px solid black;
+            display: grid;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        div.grid2{
+            border: 2px solid black;
+            display: grid;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        div.grid3{
+            border: 2px solid black;
+            display: grid;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        section.img1{
+            /* background-image: url(https://www.10wallpaper.com/wallpaper/2560x1600/1606/Forza_Horizon_3_2016-Game_High_Quality_HD_Wallpaper_2560x1600.jpg); */
+            background-image: url(https://wallpapers.com/images/hd/forza-horizon-4-hd-iprvrd7niekz1ogo.jpg);
+            height: 800px;
+            background-attachment: fixed;
+            width: 100vw;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+        }
+        div.img{
+            background-image: url(https://w0.peakpx.com/wallpaper/449/227/HD-wallpaper-mclaren-p1-forza.jpg);
+            height: 800px;
+            width: 400px;
+            background-position: center center;
+            background-size: 100% 100%;
+        }
+        p{
+            text-align: center;
+            font-size: 3vw;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="img1"></section>
+    <main>
+        <div class="grid1">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt ipsam, rem earum aut odit deleniti, cum atque, quos suscipit officiis quasi natus vero sed. Libero aut tenetur deserunt natus ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quam cum nulla cupiditate expedita suscipit corporis sint quas blanditiis, nostrum, magni rerum ratione sed ipsum architecto, ex recusandae ducimus unde.</p>
+        </div>
+        <div class="grid2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus vero tempore beatae fugit ex explicabo reiciendis in magnam assumenda rerum nulla vel dignissimos perspiciatis quae, cupiditate ea odit dolor nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptate beatae adipisci assumenda ratione deserunt quia, quo modi non maxime, blanditiis et eos eum laudantium dolores maiores ducimus quibusdam suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quibusdam fugiat iusto, est cupiditate a temporibus. Iste similique eius deleniti accusamus, alias voluptates obcaecati tenetur excepturi nobis, labore facilis in? lo</p>
+        </div>
+        <div class="grid3">
+            <div class="img"></div>
+        </div>
+    </main>
+</body>
+</html>
