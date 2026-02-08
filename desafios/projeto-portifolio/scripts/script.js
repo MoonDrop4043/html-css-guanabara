@@ -9,10 +9,10 @@ temaEscuro(temasalvo === 'escuro');
 function temaEscuro(tipo) {
   if (tipo == true) {
     body.classList.add('escuro');
-    botao.innerHTML = '<span class="material-symbols-outlined">moon_stars</span>';
+    botao.innerHTML = '<span class="material-symbols-outlined">brightness_7</span>';
   } else {
     body.classList.remove('escuro');
-    botao.innerHTML = '<span class="material-symbols-outlined">brightness_7</span>';
+    botao.innerHTML = '<span class="material-symbols-outlined">moon_stars</span>';
   }
 }
 

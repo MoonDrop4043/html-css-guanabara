@@ -13,11 +13,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="a"><span class="material-symbols-outlined">home</span></a></li>
-                <li><a href="a"><span class="material-symbols-outlined">cognition_2</span></a></li>
-                <li><a href="a"><span class="material-symbols-outlined">school</span></a></li>
-                <li><a href="a"><span class="material-symbols-outlined">folder_open</span></a></li>
-                <li><a href="a"><span class="material-symbols-outlined">moon_stars</span></a></li>
+                <li><a href="#ficha" class="link"><span class="material-symbols-outlined">home</span></a></li>
+                <li><a href="#skills" class="link"><span class="material-symbols-outlined">cognition_2</span></a></li>
+                <li><a href="#formacao" class="link"><span class="material-symbols-outlined">school</span></a></li>
+                <li><a href="#projetos" class="link"><span class="material-symbols-outlined">folder_open</span></a></li>
+                <li><a href="#" class="link" id="botao-tema"><span class="material-symbols-outlined">moon_stars</span></a></li>
             </ul>
         </nav>
     </header>
@@ -43,7 +43,7 @@
                 </div>
             </article> <!-- Fim article video -->
 
-            <article class="Skills">
+            <article id="skills">
                 <h2><span class="material-symbols-outlined">cognition_2</span> Minhas skills</h2>
                 <div id="skill-conteiner">
                     <div class="item">
@@ -153,7 +153,7 @@
                 </div>
             </article> <!-- Fim article Skilss -->
 
-            <article class="Formacao">
+            <article id="formacao">
                 <h2><span class="material-symbols-outlined">school</span> Formação</h2>
                 <div id="formacao-conteiner">
                     <div class="curso">
@@ -179,20 +179,74 @@
                     <div class="curso">
                         <p class="periodo">2009 - 2010</p>
                         <h3 class="instituicao">Fundação para Ensino à Distância</h3>
-                        <p class="titulacao">Docência para Ensino Superior Profissional</p>
+                        <p class="titulacao">Especialização para produção em ambientes EAD</p>
+                    </div>
+                    <div class="curso">
+                        <p class="periodo">2011 - 2014</p>
+                        <h3 class="instituicao">Centro de inteligência Artificial</h3>
+                        <p class="titulacao">Técnicas para aplicação de IAs</p>
                     </div>
                 </div>
 
             </article> <!-- Fim article Formacao -->
 
-            <article class="Projetos">
+            <article id="projetos">
                 <h2><span class="material-symbols-outlined">folder_open</span> Projetos que desenvolvi</h2>
+
+                <div id="projeto-container">
+
+                    <div class="projeto"> <!-- Projeto 01 -->
+                        <img src="imagens/projeto-01-videos.jpg" alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+
+                            <h3 class="titulo">Projeto de Vídeos</h3>
+                            <p>Projeto construido para treinar a inserção de vídeos em nosso site.</p>
+
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium autem similique sapiente, eum maxime quasi laborum nulla nihil ullam reiciendis quod sequi magni quidem amet aliquam labore aperiam quisquam.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 01 -->
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2023</p>
+
+                            <h3 class="titulo">Projeto de Cordel</h3>
+                            <p>Projeto construido para treinar efeito paralax em imagens.</p>
+
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium autem similique sapiente, eum maxime quasi laborum nulla nihil ullam reiciendis quod sequi magni quidem amet aliquam labore aperiam quisquam.</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 01 -->
+                        <img src="imagens/projeto-03-android.jpg" alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Projeto construido para treinar conteúdos e imagens dinâmicas.</p>
+
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium autem similique sapiente, eum maxime quasi laborum nulla nihil ullam reiciendis quod sequi magni quidem amet aliquam labore aperiam quisquam.</p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+
             </article> <!-- Fim article Projetos -->
         </section>
     </main>
 
     <footer>
-
+        Portifólio desenvolvido por <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow">Curso em Vídeo</a> em 2025
     </footer>
     <script src="scripts/script.js"></script>
 </body>
